@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Clash Royale Clone</title>
+  <title>Clash Royale Ultimate</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Clash Royale Lite</h1>
-  <canvas id="gameCanvas" width="900" height="500"></canvas>
+<h1>Clash Royale Ultimate</h1>
 
-  <script src="game.js"></script>
+<!-- Canvas Area -->
+<canvas id="gameCanvas" width="900" height="500"></canvas>
+
+<!-- Card Deck -->
+<div id="cardContainer">
+  <div class="card" onclick="playCard(0)">Knight (3)</div>
+  <div class="card" onclick="playCard(1)">Archer (3)</div>
+  <div class="card" onclick="playCard(2)">Giant (5)</div>
+  <div class="card" onclick="playCard(3)">Fireball (4)</div>
+</div>
+
+<script src="game.js"></script>
 </body>
 </html>
