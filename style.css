@@ -1,12 +1,35 @@
 body {
-  background: #222;
-  color: white;
+  background: #1b1b1b;
+  color: #fff;
   text-align: center;
   font-family: Arial, sans-serif;
 }
 
 canvas {
-  background: #3eaf3e;
-  border: 3px solid black;
+  background: #2aa52a;
+  border: 4px solid #000;
+  display: block;
+  margin: 20px auto;
+}
+
+#cardContainer {
   margin-top: 20px;
 }
+
+.card {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background: #333;
+  border: 2px solid #555;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  user-select: none;
+  transition: 0.2s;
+}
+
+.card:hover {
+  background: #555;
+}
+
